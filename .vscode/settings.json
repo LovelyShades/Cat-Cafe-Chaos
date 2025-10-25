@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Cat Cafe.sln"
+    "dotnet.defaultSolution": "Cat-Cafe-Chaos.sln"
 }
