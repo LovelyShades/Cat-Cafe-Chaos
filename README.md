@@ -151,5 +151,3 @@ For collaboration or licensing inquiries, contact:
 
 © 2025 Alanna Matundan (LovelyShades). All rights reserved.
 
-markdown
-Copy code
