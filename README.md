@@ -1,38 +1,34 @@
 🐾 Cat_Cafe_Chaos – Unity Game Showcase
+<p align="center"> <a href="#"> <img src="https://img.shields.io/badge/Language-C%23-blue.svg" alt="Language"> </a> <a href="#"> <img src="https://img.shields.io/badge/Platform-Unity_2022_LTS-lightgrey.svg" alt="Platform"> </a> <a href="#"> <img src="https://img.shields.io/badge/Status-Showcase-orange.svg" alt="Status"> </a> <a href="#"> <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"> </a> </p>
 
+Cat Café Chaos is a 3D simulation game built in Unity 2022 LTS (URP).
+Players manage a bustling cat café — serving customers, petting cats, and cleaning up messes before chaos takes over.
 
-
-
-
-
-Cat Café Chaos is a 3D simulation game developed in Unity 2022 LTS (URP).
-Players take on the role of a café owner managing a lively cat café — balancing time, cleanliness, and customer satisfaction while dealing with playful feline chaos.
-
-This project is part of a portfolio showcase demonstrating gameplay systems design, Unity development, and UI integration.
+This project is part of a portfolio showcase demonstrating C# scripting, gameplay systems design, and Unity engine proficiency.
 
 Author: Alanna Matundan
 Purpose: Portfolio · Educational Review · Game Design Demonstration
 
 ✨ Highlights
 
-Third-person controller built using Unity Starter Assets and Cinemachine
+Third-person controller using Starter Assets + Cinemachine
 
-Fully navigable café environment designed with ProBuilder and URP
+Fully navigable café built with ProBuilder and URP Lighting
 
-Dynamic Game Manager system controlling timers, score, and café state
+Modular GameManager controlling score, time, and round flow
 
-AI-driven cat and customer NPCs with randomized behaviors
+Cat AI and Customer AI with randomized idle and movement behaviors
 
-HUD + UI system using TextMeshPro and responsive canvas layouts
+Clean UI / HUD system built with TextMeshPro and Canvas Groups
 
-Interactive systems for feeding cats, serving customers, and cleaning messes
+Dynamic audio and environment triggers for immersive ambiance
 
-Audio management system with ambient loops and event triggers
+Prefab-based object architecture for scalability
 
-Modular scene and prefab workflow for expandability
+Organized project hierarchy for team or solo development
 
 🎬 Showcase
-<p align="center"> <img src="Assets/_Showcase/gameplay_loop.gif" alt="Gameplay Loop"><br> <em>Core café gameplay: serve, clean, and manage chaos</em> </p> <p align="center"> <img src="Assets/_Showcase/ui_overlay.gif" alt="UI Overlay"><br> <em>Clean, readable HUD design with TextMeshPro</em> </p> <p align="center"> <img src="Assets/_Showcase/cats_ai.gif" alt="Cat AI"><br> <em>Randomized cat behavior system</em> </p>
+<p align="center"> <img src="Assets/_Showcase/gameplay_loop.gif" alt="Gameplay Loop" width="650"><br> <em>Core café gameplay: serve, clean, and manage the chaos</em> </p> <p align="center"> <img src="Assets/_Showcase/ui_overlay.gif" alt="UI Overlay" width="650"><br> <em>TextMeshPro HUD and clean in-game overlay design</em> </p> <p align="center"> <img src="Assets/_Showcase/cats_ai.gif" alt="Cat AI" width="650"><br> <em>Randomized cat AI system with idle and roaming states</em> </p>
 🧰 Tech Stack
 
 Language: C#
@@ -51,14 +47,14 @@ Starter Assets – Third Person Controller
 
 ProBuilder
 
-Structure: Modular project setup with GameManager, UIManager, and PlayerController systems
+Structure: Modular architecture (GameManager, UIManager, PlayerController)
 
 Version Control: Git + GitHub
 
 🚀 Getting Started
 Prerequisites
 
-Unity 2022 LTS (URP template enabled)
+Unity 2022 LTS (URP Template)
 
 Windows or macOS environment
 
@@ -67,71 +63,79 @@ Git installed
 Run Locally
 # Clone the repository
 git clone https://github.com/LovelyShades/Cat-Cafe-Chaos.git
-
 cd Cat-Cafe-Chaos
 
 
-Then open the project in Unity Hub → select Unity 2022 LTS (URP) → open scene:
+Open the project in Unity Hub → select Unity 2022 LTS (URP) → open:
 Assets/Scenes/MainScene.unity
 
-Press ▶ Play in the Unity Editor to start the game.
+Press ▶ Play in the Editor to start the game.
 
 🎮 Controls
 Action	Control	Description
 Move	WASD	Walk around the café
 Run	Shift	Sprint toggle
-Interact	E	Feed cat / Serve / Clean
-Pause Menu	Esc	Opens pause or options screen
-Camera	Mouse	Cinemachine follow + orbit
+Interact	E	Feed cats, serve drinks, or clean
+Pause	Esc	Open pause/options menu
+Camera	Mouse	Cinemachine orbit + follow
 🧱 Project Structure
 Cat-Cafe-Chaos/
 │
 ├── Assets/
 │   ├── Scenes/               # Game and UI scenes
-│   ├── Scripts/              # Core gameplay logic
-│   ├── Prefabs/              # Reusable object prefabs
-│   ├── UI/                   # HUD and menus
-│   ├── Audio/                # SFX and music
-│   ├── Materials/Models/     # Environment and props
-│   └── Animations/           # Animator controllers and clips
+│   ├── Scripts/              # Gameplay systems and AI
+│   ├── Prefabs/              # Reusable objects (cats, UI, items)
+│   ├── UI/                   # HUD and menu design
+│   ├── Audio/                # Sound FX and background music
+│   ├── Materials/Models/     # 3D assets and materials
+│   └── Animations/           # Animation controllers and clips
 │
 ├── Packages/                 # Unity dependencies
-├── ProjectSettings/          # URP + Input setup
+├── ProjectSettings/          # URP and input setup
 └── README.md
 
 📚 What This Project Demonstrates
 
-Implementation of third-person mechanics and camera systems
+Creation of third-person player movement and camera systems
 
-Structuring GameManager-based loops for state control and scoring
+Implementation of GameManager-based state loops (score, round control)
 
-Applying AI logic for non-player entities (cats/customers)
+Design of AI-driven entities using Unity’s navigation tools
 
-Building responsive UI systems with TextMeshPro and Canvas Groups
+Building responsive UI with TextMeshPro and event handling
 
-Maintaining clean folder organization and Git-friendly project setup
+Efficient folder organization and prefab workflow
 
-Applying lighting, volume effects, and ambiance for URP environments
+Lighting and post-processing configuration for URP
+
+Proper version control setup for Unity projects
 
 🛣️ Future Improvements
 
-Save/load system for player progress
+Save/Load café progress system
 
-Shop and café customization upgrades
+Customer queue and order logic
 
-Day/Night lighting cycles
+Furniture and décor upgrade shop
 
-Improved AI pathfinding and interactions
+Day/Night lighting cycle
 
-Expanded soundscape and voice triggers
+Refined audio mix and sound occlusion
 
-Export to WebGL or standalone PC build
+Public PC or WebGL build for gameplay demo
 
 📄 License
 
-This project is shared under the MIT License:
+This project is distributed under the MIT License:
+✅ You may view and reference this repository for educational and portfolio review
+❌ You may not reuse, redistribute, or copy assets or code
 
-✅ You may view the source code for educational and portfolio review
-❌ You may not reuse, copy, or redistribute assets or code
+👩‍💻 Author
+
+Alanna Matundan
+🎨 Gameplay Design · 🎮 Unity Development · 💡 Systems Architecture
+
+For collaboration or licensing inquiries, please contact:
+📧 rosealanna18@gmail.com
 
 © 2025 Alanna Matundan (LovelyShades). All rights reserved.
