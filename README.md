@@ -1,119 +1,137 @@
-🐾 Cat_Cafe_Chaos (Unity Game Demo)
+🐾 Cat_Cafe_Chaos – Unity Game Showcase
 
-C# Platform Status
 
-A third-person Unity URP simulation game where players manage a bustling cat café filled with curious, mischievous cats.
-Serve drinks, pet cats, clean messes, and keep customers happy before the café descends into chaos.
+
+
+
+
+Cat Café Chaos is a 3D simulation game developed in Unity 2022 LTS (URP).
+Players take on the role of a café owner managing a lively cat café — balancing time, cleanliness, and customer satisfaction while dealing with playful feline chaos.
+
+This project is part of a portfolio showcase demonstrating gameplay systems design, Unity development, and UI integration.
 
 Author: Alanna Matundan
-License: MIT License — © 2025 LovelyShades
+Purpose: Portfolio · Educational Review · Game Design Demonstration
 
-✨ Features
+✨ Highlights
 
-🐈 Interact with AI-driven cats and customers
-☕ Serve drinks and snacks while managing time and cleanliness
-🧹 Dynamic “chaos meter” tracking café mess and mood
-💰 Earn coins to upgrade furniture and décor
-🎥 Cinemachine-based smooth third-person camera
-💡 Ambient lighting and mood effects using URP volumes
-💬 UI / HUD system with TextMeshPro
-🎶 Event-driven audio for footsteps, meows, ambience
-💾 GameManager loop controlling score, timers, and round resets
+Third-person controller built using Unity Starter Assets and Cinemachine
+
+Fully navigable café environment designed with ProBuilder and URP
+
+Dynamic Game Manager system controlling timers, score, and café state
+
+AI-driven cat and customer NPCs with randomized behaviors
+
+HUD + UI system using TextMeshPro and responsive canvas layouts
+
+Interactive systems for feeding cats, serving customers, and cleaning messes
+
+Audio management system with ambient loops and event triggers
+
+Modular scene and prefab workflow for expandability
 
 🎬 Showcase
-
-Gameplay Loop
-Feed cats → Serve customers → Clean → Upgrade → Repeat
-
-Core Loop Preview
-Watch chaos rise as more cats spawn and customers arrive.
-
-UI / HUD System
-Displays timers, currency, and café cleanliness indicators.
-
+<p align="center"> <img src="Assets/_Showcase/gameplay_loop.gif" alt="Gameplay Loop"><br> <em>Core café gameplay: serve, clean, and manage chaos</em> </p> <p align="center"> <img src="Assets/_Showcase/ui_overlay.gif" alt="UI Overlay"><br> <em>Clean, readable HUD design with TextMeshPro</em> </p> <p align="center"> <img src="Assets/_Showcase/cats_ai.gif" alt="Cat AI"><br> <em>Randomized cat behavior system</em> </p>
 🧰 Tech Stack
 
+Language: C#
+
 Engine: Unity 2022 LTS (URP)
-Language: C# (Single Player)
-Packages: Starter Assets Third Person Controller, Cinemachine, TextMeshPro, ProBuilder
-Tools: Unity Input System, Animation Controllers, Prefab Workflow
-Version Control: Git + GitHub workflow (.gitignore for Unity)
+
+Frameworks & Tools:
+
+Cinemachine
+
+TextMeshPro
+
+Unity Input System
+
+Starter Assets – Third Person Controller
+
+ProBuilder
+
+Structure: Modular project setup with GameManager, UIManager, and PlayerController systems
+
+Version Control: Git + GitHub
 
 🚀 Getting Started
 Prerequisites
 
-Unity 2022 LTS or newer (with URP template support)
+Unity 2022 LTS (URP template enabled)
 
-Windows / macOS development environment
+Windows or macOS environment
 
 Git installed
 
 Run Locally
-# clone repo
+# Clone the repository
 git clone https://github.com/LovelyShades/Cat-Cafe-Chaos.git
+
 cd Cat-Cafe-Chaos
 
-# open in Unity Hub
-# select Unity 2022 LTS (URP profile)
 
-Play Mode
+Then open the project in Unity Hub → select Unity 2022 LTS (URP) → open scene:
+Assets/Scenes/MainScene.unity
 
-Open Scenes/MainScene.unity (or Scenes/CatCafe_Main.unity)
+Press ▶ Play in the Unity Editor to start the game.
 
-Press ▶ Play in Editor
-
-Use WASD to move / Shift to run / E to interact
-
-📖 Gameplay Overview
+🎮 Controls
 Action	Control	Description
-Move / Run	WASD + Shift	Navigate café
-Interact	E	Pet cat / Serve drink / Clean
-Pause Menu	Esc	Open HUD menu
-Camera Control	Mouse	Cinemachine orbit and follow
+Move	WASD	Walk around the café
+Run	Shift	Sprint toggle
+Interact	E	Feed cat / Serve / Clean
+Pause Menu	Esc	Opens pause or options screen
+Camera	Mouse	Cinemachine follow + orbit
 🧱 Project Structure
 Cat-Cafe-Chaos/
 │
-├─ Assets/
-│  ├─ Scenes/               # main game and UI scenes
-│  ├─ Scripts/              # gameplay logic (C#, AI, manager)
-│  ├─ Prefabs/              # reusable objects (player, cats, UI)
-│  ├─ Animations/           # controller animations + states
-│  ├─ Materials/ & Models/  # 3D assets + textures
-│  └─ Audio/                # sound FX and music
+├── Assets/
+│   ├── Scenes/               # Game and UI scenes
+│   ├── Scripts/              # Core gameplay logic
+│   ├── Prefabs/              # Reusable object prefabs
+│   ├── UI/                   # HUD and menus
+│   ├── Audio/                # SFX and music
+│   ├── Materials/Models/     # Environment and props
+│   └── Animations/           # Animator controllers and clips
 │
-├─ Packages/                # Unity packages manifest
-├─ ProjectSettings/         # URP + input configuration
-└─ README.md
+├── Packages/                 # Unity dependencies
+├── ProjectSettings/          # URP + Input setup
+└── README.md
 
-📚 What I Learned
+📚 What This Project Demonstrates
 
-Implementing third-person movement with Starter Assets + Cinemachine
+Implementation of third-person mechanics and camera systems
 
-Building a looping GameManager system for state control
+Structuring GameManager-based loops for state control and scoring
 
-Creating responsive UI layouts with TextMeshPro and Canvas Groups
+Applying AI logic for non-player entities (cats/customers)
 
-Optimizing lighting and post-processing for URP
+Building responsive UI systems with TextMeshPro and Canvas Groups
 
-Designing AI behaviors using NavMesh and scriptable patterns
+Maintaining clean folder organization and Git-friendly project setup
 
-Managing Git version control for large Unity projects
+Applying lighting, volume effects, and ambiance for URP environments
 
 🛣️ Future Improvements
 
-Save / Load progress system
+Save/load system for player progress
 
-Customer queue AI logic improvements
+Shop and café customization upgrades
 
-Café upgrade shop UI and decor expansion
+Day/Night lighting cycles
 
-Day / Night cycle and lighting transitions
+Improved AI pathfinding and interactions
 
-Polish animations and sound mix
+Expanded soundscape and voice triggers
 
-Public itch.io build demo
+Export to WebGL or standalone PC build
 
-📜 License
+📄 License
 
-Licensed under the MIT License.
-© 2025 Alanna Matundan (LovelyShades).
+This project is shared under the MIT License:
+
+✅ You may view the source code for educational and portfolio review
+❌ You may not reuse, copy, or redistribute assets or code
+
+© 2025 Alanna Matundan (LovelyShades). All rights reserved.
